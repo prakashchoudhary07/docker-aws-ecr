@@ -1,0 +1,3 @@
+FROM postgres:16.2-alpine3.18
+ENV POSTGRES_PASSWORD password
+ENV POSTGRES_DB test
